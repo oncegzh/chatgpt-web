@@ -15,9 +15,9 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://raw.githubusercontent.com/Chanzhaoyu/chatgpt-web/main/src/assets/avatar.jpg',
+      avatar: 'https://raw.githubusercontent.com/oncegzh/chatgpt-web/main/src/assets/avatar01.jpg',
       name: 'BIFROST',
-      description: '',
+      description: '深圳市百福立实业发展有限公司',
     },
   }
 }
